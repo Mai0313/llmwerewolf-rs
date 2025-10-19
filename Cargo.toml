@@ -1,0 +1,22 @@
+[package]
+name = "rust_template"
+version = "0.0.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["Wei Lee <mai@mai0313.com>"]
+description = "A production-ready Rust project template with CI/CD, Docker, and examples."
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Mai0313/rust_template"
+repository = "https://github.com/Mai0313/rust_template"
+
+[[bin]]
+name = "rust_template"
+path = "src/main.rs"
+
+[dependencies]
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+strip = "symbols"
