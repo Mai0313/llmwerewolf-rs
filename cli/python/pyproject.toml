@@ -1,7 +1,7 @@
 [project]
-name = "rust_template"
+name = "llmwerewolf-rs"
 version = "0.1.0"
-description = "A production-ready Rust project template to bootstrap new projects fast. It includes a clean Cargo layout, Docker, and a complete CI/CD suite."
+description = "Python wrapper that ships the LLM Werewolf Rust binary."
 authors = [
     { name = "Wei Lee", email = "mai@mai0313.com" }
 ]
@@ -9,7 +9,7 @@ readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.8"
 dependencies = []
-keywords = ["cli", "ai", "coding-assistant", "telemetry", "claude", "codex", "gemini", "usage-tracker", "analytics"]
+keywords = ["llm", "werewolf", "game", "cli", "rust"]
 classifiers = [
     "Development Status :: 4 - Beta",
     "Intended Audience :: Developers",
@@ -26,13 +26,12 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Mai0313/rust_template"
-Repository = "https://github.com/Mai0313/rust_template"
-"Bug Tracker" = "https://github.com/Mai0313/rust_template/issues"
+Homepage = "https://github.com/Mai0313/LLMWereWolf-rs"
+Repository = "https://github.com/Mai0313/LLMWereWolf-rs"
+"Bug Tracker" = "https://github.com/Mai0313/LLMWereWolf-rs/issues"
 
 [project.scripts]
-vct = "rust_template:main"
-rust_template = "rust_template:main"
+llmwerewolf = "llmwerewolf:main"
 
 [build-system]
 requires = ["uv_build>=0.8.18,<0.9.0"]

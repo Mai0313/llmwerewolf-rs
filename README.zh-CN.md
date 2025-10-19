@@ -1,24 +1,22 @@
 <div align="center" markdown="1">
 
-# Rust 项目模板
+# LLMWereWolf-rs
 
-[![Crates.io](https://img.shields.io/crates/v/rust_template?logo=rust&style=flat-square&color=E05D44)](https://crates.io/crates/rust_template)
-[![Crates.io Downloads](https://img.shields.io/crates/d/rust_template?logo=rust&style=flat-square)](https://crates.io/crates/rust_template)
-[![npm version](https://img.shields.io/npm/v/rust_template?logo=npm&style=flat-square&color=CB3837)](https://www.npmjs.com/package/rust_template)
-[![npm downloads](https://img.shields.io/npm/dt/rust_template?logo=npm&style=flat-square)](https://www.npmjs.com/package/rust_template)
-[![PyPI version](https://img.shields.io/pypi/v/rust_template?logo=python&style=flat-square&color=3776AB)](https://pypi.org/project/rust_template/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/rust_template?logo=python&style=flat-square)](https://pypi.org/project/rust_template/)
+[![Crates.io](https://img.shields.io/crates/v/llmwerewolf?logo=rust&style=flat-square&color=E05D44)](https://crates.io/crates/llmwerewolf)
+[![Crates.io Downloads](https://img.shields.io/crates/d/llmwerewolf?logo=rust&style=flat-square)](https://crates.io/crates/llmwerewolf)
+[![npm version](https://img.shields.io/npm/v/llmwerewolf?logo=npm&style=flat-square&color=CB3837)](https://www.npmjs.com/package/llmwerewolf)
+[![npm downloads](https://img.shields.io/npm/dt/llmwerewolf?logo=npm&style=flat-square)](https://www.npmjs.com/package/llmwerewolf)
+[![PyPI version](https://img.shields.io/pypi/v/llmwerewolf-rs?logo=python&style=flat-square&color=3776AB)](https://pypi.org/project/llmwerewolf-rs/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/llmwerewolf-rs?logo=python&style=flat-square)](https://pypi.org/project/llmwerewolf-rs/)
 [![rust](https://img.shields.io/badge/Rust-stable-orange?logo=rust&logoColor=white&style=flat-square)](https://www.rust-lang.org/)
-[![tests](https://img.shields.io/github/actions/workflow/status/Mai0313/rust_template/test.yml?label=tests&logo=github&style=flat-square)](https://github.com/Mai0313/rust_template/actions/workflows/test.yml)
-[![code-quality](https://img.shields.io/github/actions/workflow/status/Mai0313/rust_template/code-quality-check.yml?label=code-quality&logo=github&style=flat-square)](https://github.com/Mai0313/rust_template/actions/workflows/code-quality-check.yml)
-[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray&style=flat-square)](https://github.com/Mai0313/rust_template/tree/master?tab=License-1-ov-file)
-[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Mai0313/rust_template/pulls)
+[![tests](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf-rs/test.yml?label=tests&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/actions/workflows/test.yml)
+[![code-quality](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf-rs/code-quality-check.yml?label=code-quality&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/actions/workflows/code-quality-check.yml)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/tree/master?tab=License-1-ov-file)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/pulls)
 
 </div>
 
-🚀 帮助 Rust 开发者「快速建立新项目」的模板。内置 Cargo 布局、Docker 与完整 CI/CD 工作流。
-
-点击 [使用此模板](https://github.com/Mai0313/rust_template/generate) 后即可开始。
+🚀 **LLM Werewolf** 的 Rust 重写專案：此仓库保留了核心引擎骨架、发布工具链与多语言封装，接下来会在此基础上逐步补上完整游戏逻辑。
 
 其他语言: [English](README.md) | [繁體中文](README.zh-TW.md) | [简体中文](README.zh-CN.md)
 
@@ -65,7 +63,7 @@ make help           # 查看可用目标
 输出示例：
 
 ```
-rust_template v0.1.25-2-gf4ae332-dirty
+llmwerewolf v0.1.25-2-gf4ae332-dirty
 Built with Rust 1.90.0 and Cargo 1.90.0
 ```
 
@@ -81,8 +79,8 @@ docker run --rm ghcr.io/<owner>/<repo>:latest
 或使用实际的二进制名称：
 
 ```bash
-docker build -f docker/Dockerfile --target prod -t rust_template:latest .
-docker run --rm rust_template:latest
+docker build -f docker/Dockerfile --target prod -t llmwerewolf:latest .
+docker run --rm llmwerewolf:latest
 ```
 
 ## 📦 打包发布
@@ -96,9 +94,15 @@ cargo package --locked --allow-dirty
 
 CI 会在打 `v*` 标签时自动打包并上传 `.crate` 产物。若需自动发布 crates.io，请在 `build_package.yml` 打开发布步骤并配置密钥。
 
+发行名称：
+
+- Crate：`llmwerewolf`
+- npm：`llmwerewolf`（亦可发布为 `@mai0313/llmwerewolf`）
+- PyPI：`llmwerewolf-rs`
+
 ## 🧩 跨平台构建
 
-当前模板默认不包含本地跨编译工具。如需在本地使用 cross 或 zig，请按需安装与配置。
+当前设置默认不包含本地跨编译工具。如需在本地使用 cross 或 zig，请按需安装与配置。
 
 GitHub Actions `build_release.yml` 会在创建 `v*` 标签时为多平台构建发布二进制，并上传到 GitHub Release。
 

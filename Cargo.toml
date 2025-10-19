@@ -1,17 +1,17 @@
 [package]
-name = "rust_template"
+name = "llmwerewolf"
 version = "0.0.0"
 edition = "2024"
 rust-version = "1.85"
 authors = ["Wei Lee <mai@mai0313.com>"]
-description = "A production-ready Rust project template with CI/CD, Docker, and examples."
+description = "LLM Werewolf — a Rust toolkit for building automated social deduction games."
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/Mai0313/rust_template"
-repository = "https://github.com/Mai0313/rust_template"
+homepage = "https://github.com/Mai0313/LLMWereWolf-rs"
+repository = "https://github.com/Mai0313/LLMWereWolf-rs"
 
 [[bin]]
-name = "rust_template"
+name = "llmwerewolf"
 path = "src/main.rs"
 
 [dependencies]

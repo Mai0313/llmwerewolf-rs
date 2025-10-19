@@ -1,16 +1,16 @@
 {
-  "name": "rust_template",
+  "name": "llmwerewolf",
   "version": "0.1.0",
-  "description": "A production-ready Rust project template to bootstrap new projects fast. It includes a clean Cargo layout, Docker, and a complete CI/CD suite.",
+  "description": "Node.js wrapper that ships the LLM Werewolf Rust binary.",
   "author": "Wei Lee <mai@mai0313.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Mai0313/rust_template",
+  "homepage": "https://github.com/Mai0313/LLMWereWolf-rs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mai0313/rust_template.git"
+    "url": "git+https://github.com/Mai0313/LLMWereWolf-rs.git"
   },
   "bugs": {
-    "url": "https://github.com/Mai0313/rust_template/issues"
+    "url": "https://github.com/Mai0313/LLMWereWolf-rs/issues"
   },
   "keywords": [
     "cli",
@@ -24,8 +24,7 @@
     "analytics"
   ],
   "bin": {
-    "vct": "bin/vct.js",
-    "rust_template": "bin/vct.js"
+    "llmwerewolf": "bin/vct.js"
   },
   "engines": {
     "node": ">=18.0.0"
