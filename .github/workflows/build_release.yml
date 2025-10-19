@@ -197,7 +197,7 @@ jobs:
         include:
           - name: "${{ github.event.repository.name }}"
             scope: "@mai0313"
-          - name: rusttemp
+          - name: llmwerewolf
             scope: "@mai0313"
           - name: "${{ github.event.repository.name }}"
             scope: ""
