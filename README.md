@@ -1,18 +1,18 @@
 <div align="center" markdown="1">
 
-# LLMWereWolf-rs
+# LLMWereWolf
 
 [![Crates.io](https://img.shields.io/crates/v/llmwerewolf?logo=rust&style=flat-square&color=E05D44)](https://crates.io/crates/llmwerewolf)
 [![Crates.io Downloads](https://img.shields.io/crates/d/llmwerewolf?logo=rust&style=flat-square)](https://crates.io/crates/llmwerewolf)
 [![npm version](https://img.shields.io/npm/v/llmwerewolf?logo=npm&style=flat-square&color=CB3837)](https://www.npmjs.com/package/llmwerewolf)
 [![npm downloads](https://img.shields.io/npm/dt/llmwerewolf?logo=npm&style=flat-square)](https://www.npmjs.com/package/llmwerewolf)
-[![PyPI version](https://img.shields.io/pypi/v/llmwerewolf-rs?logo=python&style=flat-square&color=3776AB)](https://pypi.org/project/llmwerewolf-rs/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/llmwerewolf-rs?logo=python&style=flat-square)](https://pypi.org/project/llmwerewolf-rs/)
+[![PyPI version](https://img.shields.io/pypi/v/llmwerewolf?logo=python&style=flat-square&color=3776AB)](https://pypi.org/project/llmwerewolf/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/llmwerewolf?logo=python&style=flat-square)](https://pypi.org/project/llmwerewolf/)
 [![rust](https://img.shields.io/badge/Rust-stable-orange?logo=rust&logoColor=white&style=flat-square)](https://www.rust-lang.org/)
-[![tests](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf-rs/test.yml?label=tests&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/actions/workflows/test.yml)
-[![code-quality](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf-rs/code-quality-check.yml?label=code-quality&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/actions/workflows/code-quality-check.yml)
-[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/tree/master?tab=License-1-ov-file)
-[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/pulls)
+[![tests](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf/test.yml?label=tests&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf/actions/workflows/test.yml)
+[![code-quality](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf/code-quality-check.yml?label=code-quality&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf/actions/workflows/code-quality-check.yml)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray&style=flat-square)](https://github.com/Mai0313/LLMWereWolf/tree/master?tab=License-1-ov-file)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Mai0313/LLMWereWolf/pulls)
 
 </div>
 
@@ -98,7 +98,7 @@ Distribution identifiers:
 
 - Crate: `llmwerewolf`
 - npm: `llmwerewolf` (and scoped `@mai0313/llmwerewolf`)
-- PyPI: `llmwerewolf-rs`
+- PyPI: `llmwerewolf`
 
 ## 🧩 Cross Builds
 

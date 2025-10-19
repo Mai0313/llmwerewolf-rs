@@ -4,13 +4,13 @@
   "description": "Node.js wrapper that ships the LLM Werewolf Rust binary.",
   "author": "Wei Lee <mai@mai0313.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Mai0313/LLMWereWolf-rs",
+  "homepage": "https://github.com/Mai0313/LLMWereWolf",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mai0313/LLMWereWolf-rs.git"
+    "url": "git+https://github.com/Mai0313/LLMWereWolf.git"
   },
   "bugs": {
-    "url": "https://github.com/Mai0313/LLMWereWolf-rs/issues"
+    "url": "https://github.com/Mai0313/LLMWereWolf/issues"
   },
   "keywords": [
     "cli",

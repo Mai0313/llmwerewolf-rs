@@ -7,8 +7,8 @@ authors = ["Wei Lee <mai@mai0313.com>"]
 description = "LLM Werewolf — a Rust toolkit for building automated social deduction games."
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/Mai0313/LLMWereWolf-rs"
-repository = "https://github.com/Mai0313/LLMWereWolf-rs"
+homepage = "https://github.com/Mai0313/LLMWereWolf"
+repository = "https://github.com/Mai0313/LLMWereWolf"
 
 [[bin]]
 name = "llmwerewolf"

@@ -1,5 +1,5 @@
 [project]
-name = "llmwerewolf-rs"
+name = "llmwerewolf"
 version = "0.1.0"
 description = "Python wrapper that ships the LLM Werewolf Rust binary."
 authors = [
@@ -26,9 +26,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Mai0313/LLMWereWolf-rs"
-Repository = "https://github.com/Mai0313/LLMWereWolf-rs"
-"Bug Tracker" = "https://github.com/Mai0313/LLMWereWolf-rs/issues"
+Homepage = "https://github.com/Mai0313/LLMWereWolf"
+Repository = "https://github.com/Mai0313/LLMWereWolf"
+"Bug Tracker" = "https://github.com/Mai0313/LLMWereWolf/issues"
 
 [project.scripts]
 llmwerewolf = "llmwerewolf:main"

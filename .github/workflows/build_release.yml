@@ -388,7 +388,7 @@ jobs:
         working-directory: cli/python
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
-          PACKAGE_NAME="llmwerewolf-rs"
+          PACKAGE_NAME="llmwerewolf"
 
           echo "Waiting for PyPI registry to update..."
           sleep 15
