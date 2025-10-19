@@ -24,7 +24,7 @@
     "analytics"
   ],
   "bin": {
-    "llmwerewolf": "bin/vct.js"
+    "llmwerewolf": "bin/start.js"
   },
   "engines": {
     "node": ">=18.0.0"
