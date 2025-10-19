@@ -195,11 +195,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: "${{ github.event.repository.name }}"
-            scope: "@mai0313"
           - name: llmwerewolf
             scope: "@mai0313"
-          - name: "${{ github.event.repository.name }}"
+          - name: llmwerewolf
             scope: ""
 
     steps:
