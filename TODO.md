@@ -443,12 +443,14 @@ class DemoAgent:
 
     def get_response(message: str) -> str:
         # Return random canned response
-        return random.choice([
-            "I agree.",
-            "I'm not sure about that.",
-            "Let me think about it.",
-            ...,
-        ])
+        return random.choice(
+            [
+                "I agree.",
+                "I'm not sure about that.",
+                "Let me think about it.",
+                ...,
+            ]
+        )
 ```
 
 **Agent Factory:**
