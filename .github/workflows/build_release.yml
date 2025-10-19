@@ -195,9 +195,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - name: llmwerewolf
+          - name: llmwerewolf-rs
             scope: "@mai0313"
-          - name: llmwerewolf
+          - name: llmwerewolf-rs
             scope: ""
 
     steps:
@@ -388,7 +388,7 @@ jobs:
         working-directory: cli/python
         run: |
           VERSION="${{ steps.version.outputs.VERSION }}"
-          PACKAGE_NAME="llmwerewolf"
+          PACKAGE_NAME="llmwerewolf-rs"
 
           echo "Waiting for PyPI registry to update..."
           sleep 15

@@ -22,16 +22,16 @@ def get_platform_info():
     # Map to platform-specific directory and binary name
     platform_map = {
         "darwin": {
-            "x64": {"dir": "macos-x64", "binary": "llmwerewolf"},
-            "arm64": {"dir": "macos-arm64", "binary": "llmwerewolf"},
+            "x64": {"dir": "macos-x64", "binary": "llmwerewolf-rs"},
+            "arm64": {"dir": "macos-arm64", "binary": "llmwerewolf-rs"},
         },
         "linux": {
-            "x64": {"dir": "linux-x64-gnu", "binary": "llmwerewolf"},
-            "arm64": {"dir": "linux-arm64-gnu", "binary": "llmwerewolf"},
+            "x64": {"dir": "linux-x64-gnu", "binary": "llmwerewolf-rs"},
+            "arm64": {"dir": "linux-arm64-gnu", "binary": "llmwerewolf-rs"},
         },
-        "windows": {
-            "x64": {"dir": "windows-x64", "binary": "llmwerewolf.exe"},
-            "arm64": {"dir": "windows-arm64", "binary": "llmwerewolf.exe"},
+        "win32": {
+            "x64": {"dir": "windows-x64", "binary": "llmwerewolf-rs.exe"},
+            "arm64": {"dir": "windows-arm64", "binary": "llmwerewolf-rs.exe"},
         },
     }
 

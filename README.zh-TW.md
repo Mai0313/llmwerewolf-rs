@@ -1,18 +1,18 @@
 <div align="center" markdown="1">
 
-# LLMWereWolf
+# LLMWereWolf-rs
 
-[![Crates.io](https://img.shields.io/crates/v/llmwerewolf?logo=rust&style=flat-square&color=E05D44)](https://crates.io/crates/llmwerewolf)
-[![Crates.io Downloads](https://img.shields.io/crates/d/llmwerewolf?logo=rust&style=flat-square)](https://crates.io/crates/llmwerewolf)
-[![npm version](https://img.shields.io/npm/v/llmwerewolf?logo=npm&style=flat-square&color=CB3837)](https://www.npmjs.com/package/llmwerewolf)
-[![npm downloads](https://img.shields.io/npm/dt/llmwerewolf?logo=npm&style=flat-square)](https://www.npmjs.com/package/llmwerewolf)
-[![PyPI version](https://img.shields.io/pypi/v/llmwerewolf?logo=python&style=flat-square&color=3776AB)](https://pypi.org/project/llmwerewolf/)
-[![PyPI downloads](https://img.shields.io/pypi/dm/llmwerewolf?logo=python&style=flat-square)](https://pypi.org/project/llmwerewolf/)
+[![Crates.io](https://img.shields.io/crates/v/llmwerewolf-rs?logo=rust&style=flat-square&color=E05D44)](https://crates.io/crates/llmwerewolf-rs)
+[![Crates.io Downloads](https://img.shields.io/crates/d/llmwerewolf-rs?logo=rust&style=flat-square)](https://crates.io/crates/llmwerewolf-rs)
+[![npm version](https://img.shields.io/npm/v/llmwerewolf-rs?logo=npm&style=flat-square&color=CB3837)](https://www.npmjs.com/package/llmwerewolf-rs)
+[![npm downloads](https://img.shields.io/npm/dt/llmwerewolf-rs?logo=npm&style=flat-square)](https://www.npmjs.com/package/llmwerewolf-rs)
+[![PyPI version](https://img.shields.io/pypi/v/llmwerewolf-rs?logo=python&style=flat-square&color=3776AB)](https://pypi.org/project/llmwerewolf-rs/)
+[![PyPI downloads](https://img.shields.io/pypi/dm/llmwerewolf-rs?logo=python&style=flat-square)](https://pypi.org/project/llmwerewolf-rs/)
 [![rust](https://img.shields.io/badge/Rust-stable-orange?logo=rust&logoColor=white&style=flat-square)](https://www.rust-lang.org/)
-[![tests](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf/test.yml?label=tests&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf/actions/workflows/test.yml)
-[![code-quality](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf/code-quality-check.yml?label=code-quality&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf/actions/workflows/code-quality-check.yml)
-[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray&style=flat-square)](https://github.com/Mai0313/LLMWereWolf/tree/master?tab=License-1-ov-file)
-[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Mai0313/LLMWereWolf/pulls)
+[![tests](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf-rs/test.yml?label=tests&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/actions/workflows/test.yml)
+[![code-quality](https://img.shields.io/github/actions/workflow/status/Mai0313/LLMWereWolf-rs/code-quality-check.yml?label=code-quality&logo=github&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/actions/workflows/code-quality-check.yml)
+[![license](https://img.shields.io/badge/License-MIT-green.svg?labelColor=gray&style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/tree/master?tab=License-1-ov-file)
+[![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Mai0313/LLMWereWolf-rs/pulls)
 
 </div>
 
@@ -63,7 +63,7 @@ make help           # 檢視可用目標
 輸出範例：
 
 ```
-llmwerewolf v0.1.25-2-gf4ae332-dirty
+llmwerewolf-rs v0.1.25-2-gf4ae332-dirty
 Built with Rust 1.90.0 and Cargo 1.90.0
 ```
 
@@ -79,8 +79,8 @@ docker run --rm ghcr.io/<owner>/<repo>:latest
 或使用實際的二進位名稱：
 
 ```bash
-docker build -f docker/Dockerfile --target prod -t llmwerewolf:latest .
-docker run --rm llmwerewolf:latest
+docker build -f docker/Dockerfile --target prod -t llmwerewolf-rs:latest .
+docker run --rm llmwerewolf-rs:latest
 ```
 
 ## 📦 打包發佈
@@ -96,9 +96,9 @@ CI 會在建立 `v*` 標籤時自動打包並上傳 `.crate` 產物。若需自�
 
 發佈名稱：
 
-- Crate：`llmwerewolf`
-- npm：`llmwerewolf`（亦可發佈成 `@mai0313/llmwerewolf`）
-- PyPI：`llmwerewolf`
+- Crate：`llmwerewolf-rs`
+- npm：`llmwerewolf-rs`（亦可發佈成 `@mai0313/llmwerewolf-rs`）
+- PyPI：`llmwerewolf-rs`
 
 ## 🧩 跨平台建置
 

@@ -1,5 +1,5 @@
 [package]
-name = "llmwerewolf"
+name = "llmwerewolf-rs"
 version = "0.0.0"
 edition = "2024"
 rust-version = "1.85"
@@ -7,11 +7,11 @@ authors = ["Wei Lee <mai@mai0313.com>"]
 description = "LLM Werewolf — a Rust toolkit for building automated social deduction games."
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/Mai0313/LLMWereWolf"
-repository = "https://github.com/Mai0313/LLMWereWolf"
+homepage = "https://github.com/Mai0313/LLMWereWolf-rs"
+repository = "https://github.com/Mai0313/LLMWereWolf-rs"
 
 [[bin]]
-name = "llmwerewolf"
+name = "llmwerewolf-rs"
 path = "src/main.rs"
 
 [dependencies]
